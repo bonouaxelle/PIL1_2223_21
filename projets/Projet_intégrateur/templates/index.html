@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>accueil</title>
+    {%load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
 </head>
 <body>
-        <nav class="nav1">
+        <nav class="classTitle">
         <ul>
-          <img class="ste" src="assets/Images/ima2.jpeg" alt="logo">
+          <img style="width: 50px;background-color:white ; padding: 5px; margin-bottom: 10px;" src="{% static 'images/logoifri.png'%}" alt="logo">
           <li><a  href="accueil.html">Accueil     |</a></li>
           <li><a  href="register.html">Régister     |</a></li>
           <li><a  href="contact.html">Contact    |</a></li>
@@ -49,7 +51,7 @@
 <br>
 <br>
 
-<div class="pied-de-page">
+<div class="classTitle">
     <div style="font-size: 1.2em; font-family: 'Manrope', sans-serif;">
       <img src="assets/Images/ima2.jpeg" alt="porte" style="float: right; margin-left: 10px;"><br><br>
       <a href="https://twitter2.com/" target="_blank"> <img src="assets/Images/twitter.png" alt="Chemin vers twitter" title="Twitter"></a>
