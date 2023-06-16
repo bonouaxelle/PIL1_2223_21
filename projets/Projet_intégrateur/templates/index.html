@@ -7,58 +7,48 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
 </head>
 <body>
-        <nav class="classTitle">
-        <ul>
-          <img style="width: 50px;background-color:white ; padding: 5px; margin-bottom: 10px;" src="{% static 'images/logoifri.png'%}" alt="logo">
-          <li><a  href="accueil.html">Accueil     |</a></li>
-          <li><a  href="register.html">Régister     |</a></li>
-          <li><a  href="contact.html">Contact    |</a></li>
-          <li><a  href="login.html">Login     |</a></li>
-          <li><a href="A_propos.html">A propos   |</a></li>
-          <li><a href="Article.html">Article   |</a></li>
-        </ul>
-     </nav> <br>
-     <br>
+           <header>
+        <nav>
+            <div id="nav1">
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="Visualisation.html">Visualisation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="cnx">Connexion</a></li>
+            </ul>
+        </div>
+        </nav>
 
-     <h1 style="font-family: Arial, Helvetica, sans-serif; text-decoration:overline;">A propos</h1>
-    <br>
-    <div class="image-text-container" style=" font-size: 1.2em;font-family: 'Manrope', sans empattement ;" >
-      <img src="assets/Images/ima1.jpeg" alt="machine">
-      <p>Nos systèmes d’ouverture de qualité béninois sont <br>
-         le résultat de notre grande expérience en fabrication. <br>
-        , nous nous somme  spécialiser dans la fabrication et l’installation <br>
-        de portes ,fenêtres et meuble en bois de première qualité.
-        Chez nous, vous trouverez que des gens passionnés, qui ont pour but de dépasser <br>
-         vos attentes en ce qui concerne le meublage de votre maison. Nous vous offrons <br>
-          des portes , des fenêtres et des meubles qui sont dignes d’une maison de qualité <br>
-          car nous sommes conscients qu’elles sont à l’avant-plan de tout projet.</p><br> </div>
-      <br>
-      <br>
-      <br><br>
-
-      <h1 style="text-align: center;">Nous possédons beaucoup <br>
-        de connaissances spécialisées et nous <br>
-        vous offrons une assistance continue <br>
-         lors de la conception technique.</h1>
-         <br>
-
-         <p style="text-align: center;font-size: 1.2em;font-family: 'Manrope', sans empattement ;">Notre équipe se compose d’installateurs, de fabricants, de spécialistes de la conception technique et d’experts des opérations, qui cumulent plus de 50 ans d’expérience dans l’industrie des portes et fenêtres. Tous les produits Alumalco sont testés et certifiés pour les normes Nord-Américaines (NAFS) et Européennes. Nos portes et fenêtres sont dûment vérifiées pour éviter les imperfections avant d’être soigneusement chargées pour expédition. Nous sommes fiers de nos produits, ce qui vous permettra en retour d’être fier de votre maison.
-
-         </p>
-<!--||||||||||||| FIN |||||||||||||||||||||||||||||||||||||||||||||||||-->
-<br>
-<br>
-<br>
-<br>
-
-<div class="classTitle">
-    <div style="font-size: 1.2em; font-family: 'Manrope', sans-serif;">
-      <img src="assets/Images/ima2.jpeg" alt="porte" style="float: right; margin-left: 10px;"><br><br>
-      <a href="https://twitter2.com/" target="_blank"> <img src="assets/Images/twitter.png" alt="Chemin vers twitter" title="Twitter"></a>
-    <a href="https://www.instagram.com/" target="_blank"> <img src="assets/Images/instagram.png" alt="Chemin vers instagrame " title="Instagrame"> </a>
-    <a href="#" target="_blank"> <img src="assets/Images/facebook.png" alt="Chemin vers facebook" title="facebook"> </a>
-    <div style="clear: both;"></div>
+        <nav>
+        <div id="nav2">
+            <li><img class="logo" src = "{% static 'images/ifrilogo.png'%}" alt="logo" > </li>
+            <li><p id="pgr1"><b>Institut de Formation et de Recherche en Informatique </b></p>
+            <p id="prg2">Nous batissons l'excellence</p>
+            </li>
+           <li><img class="logo" src = "{% static 'images/logo-universite-abomey-calavi-uac.png'%}" alt="logoUac" ></li>
     </div>
+    </nav>
+        </div>
+
+
+   </header>
+   <div class="plan">
+    <div class="description">
+        <nav id="prgh">
+    <p id="pr5">
+        <p id="prg3"> <i>Nous sommes ravis de vous acceullir sur notre plateforme de planification  des emlpois pour IFRI!</i> </p>
+        <p id="prg4"> <i> Nous espérons que vous trouverez tout ce dont vous avez besoin pour optimiser votre temps.</i></p><br>
+        <button id="button"><a href="Visualisation.html">Visualiser votre emplois du temps</a></button>
+    </p>
+</nav>
 </div>
+
+   </div>
+   <footer>
+    <p>Information</p>
+    <p>Contacter-nous</p>
+    <p>Ajouter-nous</p>
+
+   </footer>
 </body>
 </html>
