@@ -11,10 +11,10 @@
         <nav>
             <div id="nav1">
             <ul>
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="Visualisation.html">Visualisation</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html" class="cnx">Connexion</a></li>
+                <li><a href="{% url 'accueil' %}">Acceuil</a></li>
+                <li><a href="{% url 'Page_de_visualisation' %}">Visualisation</a></li>
+                <li><a href="{% url 'Contact' %}">Contact</a></li>
+                <li><a href="{% url 'Connexion' %}" >Connexion</a></li>
             </ul>
         </div>
         </nav>

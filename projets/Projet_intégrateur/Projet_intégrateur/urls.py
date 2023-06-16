@@ -16,9 +16,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from accueil import views
+from accueil import views as accueil_views
+from A_propos import views as apropos_views
+from Connexion import views as connexion_views
+from Contact import views as contact_views
+from Inscription import views as inscription_views
+from Page_de_choix import views as choix_views
+from Page_de_visualisation import views as visualisation_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accueil/',views.index)
+    path('accueil/', accueil_views.index,name='accueil'),
+    path('A_propos/', apropos_views.A_propos),
+    path('Connexion/', connexion_views.Connexion,name='Connexion'),
+    path('Contact/', contact_views.Contact , name='Contact'),
+    path('Inscription/', inscription_views.Inscription),
+    path('Page_de_choix/', choix_views.Choix),
+    path('Page_de_visualisation/', visualisation_views.Visualisation , name='Page_de_visualisation'),
 ]
+
