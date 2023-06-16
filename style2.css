@@ -1,0 +1,140 @@
+nav li
+{
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+#nav2
+{
+    background-color: white;
+    padding: 5px;
+    text-align: center;  
+    box-shadow: 0px 3px 6px ;
+    height: 90px;
+    
+}
+#nav1
+{
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+}
+a
+{
+    color: rgb(248, 249, 249);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.cnx
+{
+  background-color: rgb(252, 254, 255);  
+    color: blue;
+    padding:3px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+
+}
+
+.aa
+{
+    color: rgb(125, 124, 123);
+}
+img
+{
+    
+    text-align: left;
+   padding-top: 20px;
+}
+.azer
+{
+background-color: aliceblue;
+margin-top: 20px;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 60px; 
+   text-align: center;   
+}
+#prg2
+{
+color: rgb(95, 93, 93);
+}
+.plan
+{
+    background-image: url(businessperson-company-corporate-travel-management-office-business-woman-da9915c76b178675c5117c0fe86251dc.png);
+    background-repeat: no-repeat;
+    padding-bottom: 900px;
+}
+
+#prg3
+{
+    text-align: center;
+    font-family: 'Lucida Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#prg4
+{
+    text-align: center;
+    font-family: 'Lucida Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button
+{
+  text-align: center;
+  background-color: rgb(14, 58, 202);
+  color: with;
+  border-radius: 2px;
+  width: 250px;
+  
+  
+}
+.plan
+{
+    text-align: center;
+}
+.description
+{
+padding:200px;
+padding-top: 800px;
+}
+#prgh
+{
+    background-color: rgba(0, 0, 0, 0.413);
+    padding-left:   59px;
+    padding-right: 59px
+}
+footer
+{
+    color: rgb(237, 240, 243);
+    background-color: blue;
+    padding: 100px;
+}
+
+.container{
+    border: chartreuse solid;
+    width: 400px;
+    margin-top: 10%;
+}
+form
+{
+    padding: 50px;
+    background-color: rgba(135, 212, 227, 0.292);
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify ;
+}
+
+hr{
+    color: black;
+}
+
+
+
+
+
