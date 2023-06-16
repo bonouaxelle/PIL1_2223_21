@@ -4,5 +4,5 @@ from django.template import loader
 from django.http import HttpResponse
 
 def Contact(request):
-    template  = loader.get_template('index.html')
+    template  = loader.get_template('Contact.html')
     return HttpResponse(template.render())

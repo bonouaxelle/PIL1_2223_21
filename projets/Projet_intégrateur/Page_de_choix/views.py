@@ -4,5 +4,5 @@ from django.template import loader
 from django.http import HttpResponse
 
 def Choix(request):
-    template  = loader.get_template('index.html')
+    template  = loader.get_template('Page_de_choix.html')
     return HttpResponse(template.render())

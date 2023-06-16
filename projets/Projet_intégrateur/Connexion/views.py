@@ -4,5 +4,5 @@ from django.template import loader
 from django.http import HttpResponse
 
 def Connexion(request):
-    template  = loader.get_template('index.html')
+    template  = loader.get_template('Connexion.html')
     return HttpResponse(template.render())
