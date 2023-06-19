@@ -1,9 +1,140 @@
-.classTitle {
-color : white;
-background-color : #0975C3;
-border-raduis : 7px ;
-font-size : 28px;
-text-align : center
-padding : 10px;
-line-height : 150%
+nav li
+{
+    display: inline-block;
+    margin-right: 80px;
+
+}
+#nav2
+{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 3px 6px ;
+    height: 90px;
+
+}
+#nav1
+{
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+}
+a
+{
+    color: rgb(248, 249, 249);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.cnx
+{
+  background-color: rgb(252, 254, 255);
+    color: blue;
+    padding:3px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+
+}
+
+.aa
+{
+    color: rgb(125, 124, 123);
+}
+.logo
+{
+
+    text-align: left;
+   padding-top: 20px;
+   width: 50px;
+   background-color:white ;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+.azer
+{
+background-color: aliceblue;
+margin-top: 20px;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 60px;
+   text-align: center;
+}
+#prg2
+{
+color: rgb(95, 93, 93);
+}
+.plan
+{
+    background-image: url(businessperson-company-corporate-travel-management-office-business-woman-da9915c76b178675c5117c0fe86251dc.png);
+    background-repeat: no-repeat;
+    padding-bottom: 900px;
+}
+
+#prg3
+{
+    text-align: center;
+    font-family: 'Lucida Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#prg4
+{
+    text-align: center;
+    font-family: 'Lucida Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button
+{
+  text-align: center;
+  color: rgb(14, 58, 202);
+  border: none;
+  border-radius: 5px;
+
+}
+.plan
+{
+    text-align: center;
+}
+.description
+{
+border: 0mm;
+border-color:rgb(95, 93, 93); ;
+}
+#prgh
+{
+    background-color: rgba(0, 0, 0, 0.413);
+    padding-left:   59px;
+    padding-right: 59px
+}
+footer
+{
+    color: rgb(237, 240, 243);
+    background-color: blue;
+    padding: 100px;
+}
+
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+
+.container{
+   border : solid ,rgb(32, 189, 32);
+    width: 400px;
+    margin-top: 10%;
+}
+form
+{
+    border: solid #f3eeee;
+    padding: 50px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+hr{
+    color: black;
 }
