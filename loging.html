@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page de Connexion</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 215px;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color:  #0E4BEF;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color:  #0E4BEF ;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .input-group .label {
+      color: black;
+      margin-right: 5px;
+    }
+
+    .required {
+      color: orange;
+    }
+
+    .orange {
+      color: orange;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 98%;
+      padding: 8px;
+      border: 1px solid rgb(113, 204, 113);
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    .forgot-password {
+      color:   #0E4BEF;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .blue-link {
+      color:    #0E4BEF;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .button {
+      display: block;
+      width: 150px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 4px;
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .button-login {
+      background-color: #0E4BEF;
+    }
+
+    .button-register {
+      background-color: #ff7f00;
+    }
+
+    .or {
+      text-align: center;
+      margin-bottom: 10px;
+      color:black;
+    }
+
+    /* Styles pour rendre la page responsive */
+
+    @media only screen and (max-width: 400px) {
+      /* Réduire la largeur du conteneur */
+      .container {
+        max-width: 300px;
+      }
+
+      /* Réduire la taille des boutons */
+      .button {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Conteneur principal -->
+  <div class="container">
+    <!-- Titre de la page -->
+    <h1>Connexion</h1>
+    <!-- Ligne de séparation -->
+    <hr><br>
+
+    <!-- Champ d'e-mail -->
+    <div class="input-group">
+      <label for="email">E-mail <span class="required orange">*</span></label>
+      <input type="text" id="email" placeholder="" required>
+    </div><br>
+
+    <!-- Champ de mot de passe -->
+    <div class="input-group">
+      <label for="password">Mot de passe <span class="required orange">*</span></label>
+      <input type="password" id="password" placeholder="" required>
+    </div><br>
+
+    <!-- Lien "Mot de passe oublié ?" -->
+    <div class="forgot-password">
+      <a href="mot-de-passe-oublie.html" class="blue-link">Mot de passe oublié ?</a>
+    </div><br>
+
+    <!-- Boutons de connexion et d'inscription -->
+    <div class="buttons">
+      <a href="page-connexion.html" class="button button-login">Se connecter</a><br>
+      <span class="or">ou</span><br>
+      <a href="page-inscription.html" class="button button-register">S'inscrire</a>
+    </div>
+  </div>
+</body>
+</html>
+
