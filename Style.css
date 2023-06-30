@@ -1,0 +1,29 @@
+<style>
+ul{
+    list-style-type: circle;
+    margin: 20px;
+}                
+li{ 
+    margin-bottom: 5px;
+}
+</style>
+
+<style>
+.souligne-titre{
+    text-decoration: underline;
+}
+</style>
+<h1 class="souligne-titre">structure de l'application
+
+<style>
+.btn-color{ 
+    background-color: blue;
+    color:white;
+
+}
+</style>
+<style>
+background-image:url("C:\Users\GG\Documents\Rapport\photo_2023-06-30_13-29-53.jpg\");
+
+}
+</style>
