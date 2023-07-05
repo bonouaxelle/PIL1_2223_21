@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enregistrement des Séances de Cours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .title {
+            color: black;
+            text-align: center;
+        }
+        
+        .blue {
+            color: blue;
+            text-align: center;
+        }
+        
+        .rectangle {
+            border: 2px solid rgb(208, 212, 216);
+            border-radius: 3px;
+            padding: 20px;
+            text-align: left;
+            width: 600px;
+        }
+        
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .input-group label {
+            flex: 0 0 400px;
+            font-weight: bold;
+        }
+        
+        .input-group input {
+            flex: 1;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .green-btn {
+            background-color: rgb(10, 68, 10);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+        }
+        
+        @media (max-width: 600px) {
+            .rectangle {
+                width: 90%;
+            }
+            
+            .input-group label {
+                flex: 0 0 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Formulaire d'enregistrement des séances de cours</h2>
+        <div class="blue">Séances</div>
+        <div class="rectangle">
+            <div class="input-group">
+                <label for="annee_formation">Année de formation</label>
+                <input type="text" id="annee_formation" name="annee_formation">
+            </div>
+            <div class="input-group">
+                <label for="filiere">Filière</label>
+                <input type="text" id="filiere" name="filiere">
+            </div>
+            <div class="input-group">
+                <label for="matiere">Matière</label>
+                <input type="text" id="matiere" name="matiere">
+            </div>
+            <div class="input-group">
+                <label for="jour">Jour</label>
+                <input type="text" id="jour" name="jour">
+            </div>
+            <div class="input-group">
+                <label for="heure">Heure</label>
+                <input type="text" id="heure" name="heure">
+            </div>
+            <div class="input-group">
+                <label for="matricule_enseignant">Matricule de l'enseignant</label>
+                <input type="text" id="matricule_enseignant" name="matricule_enseignant">
+            </div>
+            <br><br>
+            <div class="button-group">
+<button class="green-btn">Enregistrer</button>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
